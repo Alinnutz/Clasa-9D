@@ -5,7 +5,8 @@ using namespace std;
 int main()
 {
     int n;
-    n=6;
+    cout<< "Alege un numar n=";
+    cin>>n;
     if (n%2 == 0)
         cout  << "DA";
     else
